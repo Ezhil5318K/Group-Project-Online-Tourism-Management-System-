@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ToursSystem.Tables
+namespace Tourism.Model
 {
-    class Role
+    public class Role
     {
-        public int RoleId { get; set; }
-        public string RoleName { get; set; }
-        public List<UserRole> UserRoles { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        List<UserRole> UserRoles { get; set; }
+
     }
 }
